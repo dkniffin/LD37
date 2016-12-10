@@ -9,15 +9,17 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sp_table</sprite>
-    <sprite>sprites\spr_workbench</sprite>
     <sprite>sprites\spr_character_down</sprite>
-    <sprite>sprites\spr_character_still</sprite>
-    <sprite>sprites\spr_character_left</sprite>
-    <sprite>sprites\spr_character_right</sprite>
     <sprite>sprites\spr_chem_table</sprite>
-    <sprite>sprites\spr_level</sprite>
-    <sprite>sprites\spr_hammer</sprite>
-    <sprite>sprites\spr_hammer_mask</sprite>
+    <sprites name="workbench">
+      <sprite>sprites\spr_square_lg</sprite>
+      <sprite>sprites\spr_square_md</sprite>
+      <sprite>sprites\spr_square_sm</sprite>
+      <sprite>sprites\spr_hammer_mask</sprite>
+      <sprite>sprites\spr_hammer</sprite>
+      <sprite>sprites\spr_level</sprite>
+      <sprite>sprites\spr_workbench</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_workbench</background>
@@ -29,9 +31,14 @@
     <object>objects\obj_player</object>
     <object>objects\obj_chem_table</object>
     <object>objects\obj_controller</object>
-    <object>objects\obj_level</object>
-    <object>objects\obj_workbench</object>
-    <object>objects\obj_hammer</object>
+    <objects name="workbench">
+      <object>objects\obj_workbench</object>
+      <object>objects\obj_hammer</object>
+      <object>objects\obj_level</object>
+      <object>objects\obj_square_lg</object>
+      <object>objects\obj_square_md</object>
+      <object>objects\obj_square_sm</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_workbench</room>
