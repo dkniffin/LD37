@@ -13,6 +13,27 @@
       <sprite>sprites\spr_chem_table</sprite>
       <sprite>sprites\spr_beaker</sprite>
       <sprite>sprites\spr_flask</sprite>
+      <sprites name="pipes">
+        <sprite>sprites\spr_pipes</sprite>
+        <sprite>sprites\spr_Cross_pipes</sprite>
+        <sprite>sprites\spr_Left_Pipe</sprite>
+        <sprite>sprites\spr_center_pipe</sprite>
+        <sprite>sprites\spr_Right_pipe</sprite>
+        <sprite>sprites\spr_Top_pipe</sprite>
+        <sprite>sprites\spr_mid_pipe</sprite>
+        <sprite>sprites\spr_left_turn_up</sprite>
+        <sprite>sprites\spr_right_turn_up</sprite>
+        <sprite>sprites\spr_straight</sprite>
+        <sprite>sprites\spr_down_pipe</sprite>
+        <sprite>sprites\spr_Left_turn_down</sprite>
+        <sprite>sprites\spr_rightTurnDown</sprite>
+        <sprite>sprites\spr_Straight_Down</sprite>
+        <sprite>sprites\spr_center_down</sprite>
+        <sprite>sprites\Spr_3Way_down</sprite>
+        <sprite>sprites\spr_3way_left</sprite>
+        <sprite>sprites\spr_3way_right</sprite>
+        <sprite>sprites\spr_3way_up</sprite>
+      </sprites>
     </sprites>
     <sprites name="workbench">
       <sprite>sprites\spr_square_lg</sprite>
@@ -57,6 +78,26 @@
       <object>objects\obj_chem_table</object>
       <object>objects\obj_beaker</object>
       <object>objects\obj_flask</object>
+      <objects name="pipes">
+        <object>objects\obj_cross__pipes</object>
+        <object>objects\obj_left_pipe</object>
+        <object>objects\obj_right_pipe</object>
+        <object>objects\obj_center_pipe</object>
+        <object>objects\obj_top_pipe</object>
+        <object>objects\obj_mid_pipe</object>
+        <object>objects\obj_left_turn_up</object>
+        <object>objects\obj_right_turn_down</object>
+        <object>objects\obj_straight</object>
+        <object>objects\obj_down_pipe</object>
+        <object>objects\obj_left_turn_down</object>
+        <object>objects\obj_right_turn_up</object>
+        <object>objects\obj_straight_down</object>
+        <object>objects\obj_center_Down</object>
+        <object>objects\obj_3way_down</object>
+        <object>objects\obj_3way_left</object>
+        <object>objects\obj_3way_right</object>
+        <object>objects\obj_3way_up</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
