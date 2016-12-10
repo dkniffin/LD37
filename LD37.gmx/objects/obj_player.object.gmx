@@ -53,42 +53,50 @@ movespeed = 5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Get the player's input
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(vk_space);
-
-//React to inputs
-move = key_left + key_right;
-hsp = move * movespeed;
-if (vsp &lt; 10) vsp += grav;
- 
-if (place_meeting(x,y+1,obj_wall))
-{
-    vsp = key_jump * -jumpspeed
-}
-
-//Horizontal Collision
-if (place_meeting(x+hsp,y,obj_wall))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_wall))
+            <string>if (room == rm_workbench || room = rm_chemstation) {
+    //Side-scroller controls
+    
+    //Get the player's input
+    key_right = keyboard_check(vk_right);
+    key_left = -keyboard_check(vk_left);
+    key_jump = keyboard_check_pressed(vk_space);
+    
+    //React to inputs
+    move = key_left + key_right;
+    hsp = move * movespeed;
+    if (vsp &lt; 10) vsp += grav;
+     
+    if (place_meeting(x,y+1,obj_wall))
     {
-        x += sign(hsp);
+        vsp = key_jump * -jumpspeed
     }
-    hsp = 0;
-}
-x += hsp;
-
-//Vertical Collision
-if (place_meeting(x,y+vsp,obj_wall))
-{
-    while(!place_meeting(x,y+sign(vsp),obj_wall))
+    
+    //Horizontal Collision
+    if (place_meeting(x+hsp,y,obj_wall))
     {
-        y += sign(vsp);
+        while(!place_meeting(x+sign(hsp),y,obj_wall))
+        {
+            x += sign(hsp);
+        }
+        hsp = 0;
     }
-    vsp = 0;
+    x += hsp;
+    
+    //Vertical Collision
+    if (place_meeting(x,y+vsp,obj_wall))
+    {
+        while(!place_meeting(x,y+sign(vsp),obj_wall))
+        {
+            y += sign(vsp);
+        }
+        vsp = 0;
+    }
+    y += vsp;
+} else {
+    // Top-down controls
+    
+    
 }
-y += vsp;
 </string>
           </argument>
         </arguments>

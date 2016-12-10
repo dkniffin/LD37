@@ -9,11 +9,8 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sp_table</sprite>
-    <sprites name="chem station">
-      <sprite>sprites\spr_chem_table</sprite>
-      <sprite>sprites\spr_beaker</sprite>
-      <sprite>sprites\spr_flask</sprite>
-    </sprites>
+    <sprite>sprites\spr_character_down</sprite>
+    <sprite>sprites\spr_chem_table</sprite>
     <sprites name="workbench">
       <sprite>sprites\spr_square_lg</sprite>
       <sprite>sprites\spr_square_md</sprite>
@@ -26,12 +23,9 @@
       <sprite>sprites\spr_toolbox</sprite>
       <sprite>sprites\spr_shelves</sprite>
     </sprites>
-    <sprites name="Character sprites">
-      <sprite>sprites\spr_character_down</sprite>
-      <sprite>sprites\spr_character_left</sprite>
-      <sprite>sprites\spr_character_right</sprite>
-      <sprite>sprites\spr_character_still</sprite>
-    </sprites>
+    <sprite>sprites\spr_character_left</sprite>
+    <sprite>sprites\spr_character_right</sprite>
+    <sprite>sprites\spr_character_still</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_workbench</background>
@@ -41,6 +35,7 @@
   <objects name="objects">
     <object>objects\obj_wall</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_chem_table</object>
     <object>objects\obj_controller</object>
     <objects name="workbench">
       <object>objects\obj_workbench</object>
@@ -53,15 +48,11 @@
       <object>objects\obj_toolbox</object>
       <object>objects\obj_shelves</object>
     </objects>
-    <objects name="chem station">
-      <object>objects\obj_chem_table</object>
-      <object>objects\obj_beaker</object>
-      <object>objects\obj_flask</object>
-    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_workbench</room>
     <room>rooms\rm_chemstation</room>
+    <room>rooms\rm_computer_desk</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
