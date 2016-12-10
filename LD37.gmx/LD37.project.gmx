@@ -52,7 +52,10 @@
     <sprite>sprites\spr_character_left</sprite>
     <sprite>sprites\spr_character_right</sprite>
     <sprite>sprites\spr_character_still</sprite>
-    <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\spr_character_top_up</sprite>
+    <sprite>sprites\spr_character_top_right</sprite>
+    <sprite>sprites\spr_character_top_left</sprite>
+    <sprite>sprites\spr_character_top_down</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_workbench</background>
@@ -102,6 +105,7 @@
         <object>objects\obj_3way_up</object>
       </objects>
     </objects>
+    <object>objects\obj_player_top</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_workbench</room>
