@@ -9,6 +9,9 @@
     <sprite>sprites\sp_table</sprite>
     <sprite>sprites\spr_workbench</sprite>
     <sprite>sprites\spr_character_down</sprite>
+    <sprite>sprites\spr_character_still</sprite>
+    <sprite>sprites\spr_character_left</sprite>
+    <sprite>sprites\spr_character_right</sprite>
     <sprite>sprites\spr_chem_table</sprite>
     <sprite>sprites\spr_level</sprite>
     <sprite>sprites\spr_hammer</sprite>
