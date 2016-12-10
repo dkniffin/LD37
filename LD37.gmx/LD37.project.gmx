@@ -15,6 +15,7 @@
     <sprite>sprites\spr_chem_table</sprite>
     <sprite>sprites\spr_level</sprite>
     <sprite>sprites\spr_hammer</sprite>
+    <sprite>sprites\spr_hammer_mask</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_workbench</background>
