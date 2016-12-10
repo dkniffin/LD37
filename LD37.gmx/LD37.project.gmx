@@ -58,6 +58,9 @@
       <sprite>sprites\spr_character_top_down</sprite>
       <sprite>sprites\spr_character_down</sprite>
     </sprites>
+    <sprites name="computer_desk">
+      <sprite>sprites\spr_mouse</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_workbench</background>
@@ -108,11 +111,14 @@
       </objects>
     </objects>
     <object>objects\obj_player_top</object>
+    <objects name="computer_desk">
+      <object>objects\obj_mouse</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_computer_desk</room>
     <room>rooms\rm_workbench</room>
     <room>rooms\rm_chemstation</room>
-    <room>rooms\rm_computer_desk</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
