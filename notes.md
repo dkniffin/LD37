@@ -1,4 +1,4 @@
-Ideas:
+# Ideas
 - Escape the room
 - Shifting room
 - Small character (ant, hamster, shrunken, etc)
@@ -27,3 +27,11 @@ Ideas:
   - Shrink-wrap - We should collect this from the shrink ray, for re-use in the un-shrink ray.
   - Circuit board - Take this from some broke-down electronics in the room 
    - TODO: what's something funny for this?
+   
+# Rooms
+- Main Workbench
+- Computer
+- Chemical Station
+- Sink
+
+
