@@ -7,8 +7,11 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sp_table</sprite>
+    <sprite>sprites\spr_workbench</sprite>
     <sprite>sprites\spr_character_down</sprite>
     <sprite>sprites\spr_chem_table</sprite>
+    <sprite>sprites\spr_level</sprite>
+    <sprite>sprites\spr_hammer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_workbench</background>
@@ -20,6 +23,9 @@
     <object>objects\obj_player</object>
     <object>objects\obj_chem_table</object>
     <object>objects\obj_controller</object>
+    <object>objects\obj_level</object>
+    <object>objects\obj_workbench</object>
+    <object>objects\obj_hammer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_workbench</room>
