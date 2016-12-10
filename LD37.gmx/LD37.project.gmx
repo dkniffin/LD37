@@ -68,6 +68,9 @@
     <background>background\bg_computer_desk</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\segoe</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_wall</object>
     <object>objects\obj_player</object>
