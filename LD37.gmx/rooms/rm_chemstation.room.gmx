@@ -54,8 +54,8 @@
     <instance objName="obj_chem_table" x="0" y="736" name="inst_E153A145" locked="0" code="" scaleX="4" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="896" y="704" name="inst_8BC7697C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controller" x="0" y="0" name="inst_BAB0BA89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_beaker" x="608" y="544" name="inst_6894281A" locked="0" code="" scaleX="1.01587307453156" scaleY="1.01587307453156" colour="4294967295" rotation="0"/>
-    <instance objName="obj_flask" x="256" y="512" name="inst_1FC11F81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="608" y="544" name="inst_6894281A" locked="0" code="" scaleX="1.01587307453156" scaleY="1.01587307453156" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="256" y="512" name="inst_1FC11F81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
