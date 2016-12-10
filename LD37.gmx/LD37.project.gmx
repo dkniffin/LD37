@@ -19,6 +19,9 @@
       <sprite>sprites\spr_hammer</sprite>
       <sprite>sprites\spr_level</sprite>
       <sprite>sprites\spr_workbench</sprite>
+      <sprite>sprites\spr_box</sprite>
+      <sprite>sprites\spr_toolbox</sprite>
+      <sprite>sprites\spr_shelves</sprite>
     </sprites>
     <sprite>sprites\spr_character_left</sprite>
     <sprite>sprites\spr_character_right</sprite>
@@ -41,6 +44,9 @@
       <object>objects\obj_square_lg</object>
       <object>objects\obj_square_md</object>
       <object>objects\obj_square_sm</object>
+      <object>objects\obj_box</object>
+      <object>objects\obj_toolbox</object>
+      <object>objects\obj_shelves</object>
     </objects>
   </objects>
   <rooms name="rooms">
