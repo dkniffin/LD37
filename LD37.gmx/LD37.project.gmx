@@ -8,17 +8,22 @@
   <sprites name="sprites">
     <sprite>sprites\sp_table</sprite>
     <sprite>sprites\spr_character_down</sprite>
+    <sprite>sprites\spr_chem_table</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_workbench</background>
+    <background>background\bg_chemstation</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_wall</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_chem_table</object>
+    <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_workbench</room>
+    <room>rooms\rm_chemstation</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
