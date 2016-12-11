@@ -34,4 +34,29 @@
 - Chemical Station
 - Sink
 
+# Intro text
+
+Doctor Keller was working late in his lab, as usual
+
+He had spent so many hours working on the device
+
+But today was the day. He finally finished it!
+
+He knew he should have waited until daytime, when his assistant would be around
+
+But he just couldn't contain his excitement. He was sure it would work as intended
+
+In his excitement, what he failed to consider is what he would do AFTER it worked
+
+He plugged the device in and turned it on
+
+<Change to white>
+
+There was a flash of light, and a beam of energy from the device
+
+Dr Keller was certainly not a tall man, but he wasn't short either. That was about to change
+
+When the beam hit him, he shrunk from over 5 feet tall, down to a mere inch!
+
+
 

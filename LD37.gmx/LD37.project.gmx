@@ -74,7 +74,9 @@
   <objects name="objects">
     <object>objects\obj_wall</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_player_top</object>
     <object>objects\obj_controller</object>
+    <object>objects\obj_intro_controller</object>
     <objects name="workbench">
       <object>objects\obj_workbench</object>
       <object>objects\obj_hammer</object>
@@ -113,15 +115,19 @@
         <object>objects\obj_3way_up</object>
       </objects>
     </objects>
-    <object>objects\obj_player_top</object>
     <objects name="computer_desk">
       <object>objects\obj_mouse</object>
     </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\tl_intro_cutscene</timeline>
+  </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_computer_desk</room>
+    <room>rooms\rm_intro</room>
     <room>rooms\rm_workbench</room>
+    <room>rooms\rm_computer_desk</room>
     <room>rooms\rm_chemstation</room>
+    <room>rooms\room4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
