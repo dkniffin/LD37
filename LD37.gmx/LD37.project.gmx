@@ -59,7 +59,11 @@
     </sprites>
     <sprites name="computer_desk">
       <sprite>sprites\spr_mouse</sprite>
+      <sprite>sprites\spr_monitor</sprite>
+      <sprite>sprites\spr_browser_frame</sprite>
+      <sprite>sprites\spr_cursor</sprite>
     </sprites>
+    <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_workbench</background>
@@ -117,6 +121,8 @@
     </objects>
     <objects name="computer_desk">
       <object>objects\obj_mouse</object>
+      <object>objects\obj_monitor</object>
+      <object>objects\obj_screen</object>
     </objects>
     <objects name="player">
       <object>objects\obj_player_side</object>
@@ -132,9 +138,9 @@
     <timeline>timelines\tl_intro_cutscene</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_computer_desk</room>
     <room>rooms\rm_intro</room>
     <room>rooms\rm_workbench</room>
-    <room>rooms\rm_computer_desk</room>
     <room>rooms\rm_chemstation</room>
   </rooms>
   <help>
