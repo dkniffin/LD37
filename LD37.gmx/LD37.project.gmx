@@ -8,7 +8,6 @@
     <sound>sound\snd_MadScience</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sp_table</sprite>
     <sprites name="chem station">
       <sprite>sprites\spr_chem_table</sprite>
       <sprite>sprites\spr_beaker</sprite>
@@ -68,15 +67,16 @@
     <background>background\bg_computer_desk</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_push.gml</script>
+    <script>scripts\scr_move.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\segoe</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_wall</object>
-    <object>objects\obj_player</object>
-    <object>objects\obj_player_top</object>
-    <object>objects\obj_controller</object>
-    <object>objects\obj_intro_controller</object>
+    <object>objects\obj_pushable</object>
     <objects name="workbench">
       <object>objects\obj_workbench</object>
       <object>objects\obj_hammer</object>
@@ -118,16 +118,24 @@
     <objects name="computer_desk">
       <object>objects\obj_mouse</object>
     </objects>
+    <objects name="player">
+      <object>objects\obj_player_side</object>
+      <object>objects\obj_player_top</object>
+      <object>objects\obj_player</object>
+    </objects>
+    <objects name="controllers">
+      <object>objects\obj_intro_controller</object>
+      <object>objects\obj_controller</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_intro_cutscene</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_intro</room>
     <room>rooms\rm_workbench</room>
     <room>rooms\rm_computer_desk</room>
     <room>rooms\rm_chemstation</room>
-    <room>rooms\room4</room>
+    <room>rooms\rm_intro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

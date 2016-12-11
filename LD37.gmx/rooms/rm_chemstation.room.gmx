@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_player" x="32" y="704" name="inst_8BC7697C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_side" x="32" y="704" name="inst_8BC7697C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controller" x="0" y="0" name="inst_BAB0BA89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_beaker" x="352" y="608" name="inst_6894281A" locked="0" code="" scaleX="0.673684239387512" scaleY="0.663157880306244" colour="4294967295" rotation="0"/>
     <instance objName="obj_flask" x="288" y="640" name="inst_1FC11F81" locked="0" code="" scaleX="0.533333361148834" scaleY="0.428571432828903" colour="4294967295" rotation="0"/>

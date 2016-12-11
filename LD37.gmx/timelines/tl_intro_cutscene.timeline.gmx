@@ -125,7 +125,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>room4</room>
+            <room>rm_workbench</room>
           </argument>
         </arguments>
       </action>
@@ -1008,7 +1008,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>room4</room>
+            <room>rm_workbench</room>
           </argument>
         </arguments>
       </action>
