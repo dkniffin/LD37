@@ -132,10 +132,10 @@
     <timeline>timelines\tl_intro_cutscene</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_intro</room>
     <room>rooms\rm_workbench</room>
     <room>rooms\rm_computer_desk</room>
     <room>rooms\rm_chemstation</room>
-    <room>rooms\rm_intro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
