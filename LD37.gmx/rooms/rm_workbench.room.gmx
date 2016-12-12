@@ -77,16 +77,17 @@
     <instance objName="obj_peg" x="280" y="448" name="inst_606C1142" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_peg" x="8" y="352" name="inst_4EF7B58D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room_transition" x="-7" y="600" name="inst_8647DC8C" locked="0" code="targetRoom = rm_computer_desk&#xA;" scaleX="0.5" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_capacitor" x="224" y="600" name="inst_CAA4969F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_capacitor" x="242" y="612" name="inst_CAA4969F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cup" x="1216" y="296" name="inst_9B485355" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_resistor" x="1240" y="328" name="inst_B275EC48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_resistor" x="1268" y="341" name="inst_B275EC48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cup" x="1032" y="296" name="inst_D1A44EBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_peg" x="1024" y="352" name="inst_1505573A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_peg" x="1080" y="352" name="inst_88B21801" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_peg" x="1208" y="352" name="inst_7457E77B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_peg" x="1256" y="352" name="inst_ABDD3F81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_capacitor" x="1064" y="328" name="inst_D2D03224" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_capacitor" x="1083" y="335" name="inst_D2D03224" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_arrow_comp_left" x="0" y="592" name="inst_59A7516C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_resistor" x="86" y="660" name="inst_542C39C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
