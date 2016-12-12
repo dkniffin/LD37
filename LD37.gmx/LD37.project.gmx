@@ -46,6 +46,7 @@
       <sprite>sprites\spr_shelves</sprite>
       <sprite>sprites\spr_scissors</sprite>
       <sprite>sprites\spr_peg</sprite>
+      <sprite>sprites\spr_cup</sprite>
     </sprites>
     <sprites name="character">
       <sprite>sprites\spr_character_left</sprite>
@@ -62,6 +63,7 @@
       <sprite>sprites\spr_monitor</sprite>
       <sprite>sprites\spr_browser_frame</sprite>
       <sprite>sprites\spr_cursor</sprite>
+      <sprite>sprites\spr_gurgle</sprite>
     </sprites>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_room_transition</sprite>
@@ -102,6 +104,7 @@
       <object>objects\obj_shelves</object>
       <object>objects\obj_scissors</object>
       <object>objects\obj_peg</object>
+      <object>objects\obj_cup</object>
     </objects>
     <objects name="chem station">
       <object>objects\obj_chem_table</object>

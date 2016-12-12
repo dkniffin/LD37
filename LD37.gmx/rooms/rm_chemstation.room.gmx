@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>45</speed>
   <persistent>-1</persistent>
@@ -51,17 +51,18 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_player_side" x="32" y="704" name="inst_8BC7697C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_beaker" x="352" y="608" name="inst_6894281A" locked="0" code="" scaleX="0.673684239387512" scaleY="0.663157880306244" colour="4294967295" rotation="0"/>
-    <instance objName="obj_flask" x="288" y="640" name="inst_1FC11F81" locked="0" code="" scaleX="0.533333361148834" scaleY="0.428571432828903" colour="4294967295" rotation="0"/>
-    <instance objName="obj_straight" x="320" y="576" name="inst_2FD9D51E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_straight" x="224" y="672" name="inst_E9CFE8C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_left_turn_up" x="192" y="672" name="inst_9B0C06D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_3way_left" x="256" y="672" name="inst_D3D09D37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_3way_left" x="352" y="576" name="inst_9F8CE8F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_straight" x="288" y="576" name="inst_6ACB8262" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_left_turn_up" x="256" y="576" name="inst_5D0AD85B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_top_pipe" x="256" y="608" name="inst_F2DEC90A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_side" x="32" y="692" name="inst_8BC7697C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_beaker" x="372" y="569" name="inst_6894281A" locked="0" code="" scaleX="0.673684239387512" scaleY="0.663157880306244" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flask" x="290" y="606" name="inst_1FC11F81" locked="0" code="" scaleX="0.533333361148834" scaleY="0.428571432828903" colour="4294967295" rotation="0"/>
+    <instance objName="obj_straight" x="320" y="512" name="inst_2FD9D51E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_straight" x="224" y="608" name="inst_E9CFE8C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_left_turn_up" x="192" y="608" name="inst_9B0C06D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_3way_left" x="256" y="608" name="inst_D3D09D37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_3way_left" x="352" y="512" name="inst_9F8CE8F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_straight" x="288" y="512" name="inst_6ACB8262" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_left_turn_up" x="256" y="512" name="inst_5D0AD85B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_top_pipe" x="256" y="544" name="inst_F2DEC90A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_chem_table" x="0" y="704" name="inst_60F2BA0B" locked="0" code="" scaleX="4" scaleY="0.25" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

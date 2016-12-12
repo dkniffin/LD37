@@ -62,16 +62,6 @@ When the beam hit him, he shrunk from over 5 feet tall, down to a mere inch!
 
 # Todo
 
-- Collectible items
-- Collectible item indicator
-- Arrows indicating room transitions
-- Get graphics for:
- - Keyboard
- - Capacitor
- - Resistor
- - Soldering Iron
- - Vial
-- Gurgle graphic
 - Ability to click gurgle search
 - Finish platforming area
 - Create a cupboard area
