@@ -27,6 +27,8 @@
   - Shrink-wrap - We should collect this from the shrink ray, for re-use in the un-shrink ray.
   - Circuit board - Take this from some broke-down electronics in the room 
    - TODO: what's something funny for this?
+  - Capacitor x3
+  - Resistor x2
    
 # Rooms
 - Main Workbench
@@ -58,5 +60,18 @@ Dr Keller was certainly not a tall man, but he wasn't short either. That was abo
 
 When the beam hit him, he shrunk from over 5 feet tall, down to a mere inch!
 
+# Todo
 
-
+- Collectible items
+- Collectible item indicator
+- Arrows indicating room transitions
+- Get graphics for:
+ - Keyboard
+ - Capacitor
+ - Resistor
+ - Soldering Iron
+ - Vial
+- Gurgle graphic
+- Ability to click gurgle search
+- Finish platforming area
+- Create a cupboard area

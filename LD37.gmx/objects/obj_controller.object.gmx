@@ -4,11 +4,11 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="7" enumb="4">
+    <event eventtype="7" enumb="2">
       <action>
         <libid>1</libid>
         <id>211</id>
@@ -49,8 +49,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Define global variables
-global.currentTask = "Find a way to unshrink yourself!"
+            <string>///Define variables
+currentTask = "Find a way to unshrink yourself!"
+capacitorCount = 0
+resistorCount = 0
+
+capacitorTotal = instance_number(obj_capacitor)
+resistorTotal = instance_number(obj_resistor)
+
+capacitorTotalString = "???"
+resistorTotalString = "???"
 
 draw_set_font('segoe');
 </string>
@@ -76,8 +84,10 @@ draw_set_font('segoe');
           <argument>
             <kind>1</kind>
             <string>///Draw current task UI
-// screen_width = display_get_width();
-draw_text(10, 10, "Current Task: " + global.currentTask);
+draw_set_color(c_white)
+draw_text(5, 5, "Current Task: " + currentTask)
+draw_text(5, 20, "Capacitors: " + string(capacitorCount) + "/" + capacitorTotalString)
+draw_text(5, 35, "Resistors: " + string(resistorCount) + "/" + resistorTotalString)
 
 </string>
           </argument>

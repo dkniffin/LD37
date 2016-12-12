@@ -64,6 +64,11 @@
       <sprite>sprites\spr_cursor</sprite>
     </sprites>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_room_transition</sprite>
+    <sprites name="parts">
+      <sprite>sprites\spr_capacitor</sprite>
+      <sprite>sprites\spr_resistor</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_workbench</background>
@@ -81,6 +86,10 @@
   <objects name="objects">
     <object>objects\obj_wall</object>
     <object>objects\obj_pushable</object>
+    <objects name="parts">
+      <object>objects\obj_capacitor</object>
+      <object>objects\obj_resistor</object>
+    </objects>
     <objects name="workbench">
       <object>objects\obj_workbench</object>
       <object>objects\obj_hammer</object>
@@ -133,14 +142,15 @@
       <object>objects\obj_intro_controller</object>
       <object>objects\obj_controller</object>
     </objects>
+    <object>objects\obj_room_transition</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_intro_cutscene</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_workbench</room>
     <room>rooms\rm_computer_desk</room>
     <room>rooms\rm_intro</room>
-    <room>rooms\rm_workbench</room>
     <room>rooms\rm_chemstation</room>
   </rooms>
   <help>
