@@ -29,6 +29,7 @@
 
 mouse_to_cursor_factor = 1
 browser_padding = 5
+current_screen = spr_gurgle
 
 screen_width = display_get_gui_width()
 browser_w = sprite_get_width(spr_browser_frame)
@@ -42,6 +43,14 @@ cursor_y = 30
 //Need to keep track of these to see if mouse moved
 mouse_prev_x = obj_mouse.x
 mouse_prev_y = obj_mouse.y
+
+search_w = 60
+search_h = 14
+search_x1 = browser_x + 148
+search_y1 = browser_y + 160
+search_x2 = search_x1 + search_w
+search_y2 = search_y1 + search_h
+
 </string>
           </argument>
         </arguments>
@@ -89,6 +98,38 @@ cursor_y = clamp(cursor_y, 0, browser_h)
 cursor_real_x = browser_x + cursor_x
 cursor_real_y = browser_y + cursor_y
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="10">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Mouse click
+// Check if search button was clicked. 
+if(point_in_rectangle(cursor_real_x, cursor_real_y, 
+                      search_x1, search_y1,
+                      search_x2, search_y2)) {
+  current_screen = spr_schematic
+  with(obj_controller) {
+      event_user(0)
+  }
+}
 </string>
           </argument>
         </arguments>
@@ -143,8 +184,10 @@ cursor_real_y = browser_y + cursor_y
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Draw gurgle
-draw_sprite(spr_gurgle, -1, browser_x + browser_w/2, browser_y + 150)
+            <string>///Draw screen
+draw_sprite(current_screen, -1, browser_x + 2, browser_y + 39)
+
+
 </string>
           </argument>
         </arguments>

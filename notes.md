@@ -62,7 +62,8 @@ When the beam hit him, he shrunk from over 5 feet tall, down to a mere inch!
 
 # Todo
 
-- Animate capacitor and resistor
-- Ability to click gurgle search
 - Finish platforming area
 - Create a cupboard area
+
+371x228
+367x189

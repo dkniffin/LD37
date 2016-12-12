@@ -64,6 +64,7 @@
       <sprite>sprites\spr_browser_frame</sprite>
       <sprite>sprites\spr_cursor</sprite>
       <sprite>sprites\spr_gurgle</sprite>
+      <sprite>sprites\spr_schematic</sprite>
     </sprites>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_room_transition</sprite>
@@ -85,6 +86,7 @@
   <scripts name="scripts">
     <script>scripts\scr_push.gml</script>
     <script>scripts\scr_move.gml</script>
+    <script>scripts\scr_click_mouse.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\segoe</font>
