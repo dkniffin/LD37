@@ -154,6 +154,9 @@
       <object>objects\obj_arrow_comp_left</object>
       <object>objects\obj_arrow_work_right</object>
     </objects>
+    <objects name="effects">
+      <object>objects\effect_shake</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_intro_cutscene</timeline>
