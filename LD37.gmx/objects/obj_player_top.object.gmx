@@ -70,7 +70,7 @@ if (key_jump) {
    // ground pound
    instance_create(0, 0, effect_shake)
    
-   if (place_meeting(x,y+1,obj_mouse)) {
+   if (place_meeting(x,y+10,obj_mouse)) {
       // We're above the mouse. Click the button
       with(obj_screen) {
           event_user(0);

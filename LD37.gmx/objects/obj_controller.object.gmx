@@ -8,6 +8,36 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Check to see if all components have been found
+if (currentTask == const_partsTask) { 
+    if(capacitorCount == capacitorTotal &amp;&amp;
+       resistorCount == resistorTotal) {
+         show_debug_message('Found all components')
+         currentTask = const_assemblyTask
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="7" enumb="10">
       <action>
         <libid>1</libid>
@@ -25,10 +55,45 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Update info from schematic
-currentTask = "Collect parts for unshrink ray"
-capacitorTotalString = string(instance_number(obj_capacitor))
-resistorTotalString = string(instance_number(obj_resistor))
+            <string>///Move to parts task
+currentTask = const_partsTask
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Calculate capacitor and resistor totals
+if(countingParts) {
+    show_debug_message("In room " + string(room))
+    show_debug_message("room_next " + string(room_next(room)))
+    show_debug_message("countingParts " + string(countingParts))
+    capacitorTotal += instance_number(obj_capacitor);
+    resistorTotal += instance_number(obj_resistor);
+    if(room_next(room)) {
+        room_goto_next()
+    } else {
+        countingParts = false
+        room_goto(rm_workbench)
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -76,14 +141,23 @@ resistorTotalString = string(instance_number(obj_resistor))
           <argument>
             <kind>1</kind>
             <string>///Define variables
-currentTask = "Find a way to unshrink yourself!"
+
+//Task constants
+const_schematicTask = 0
+const_partsTask = 1
+const_assemblyTask = 2
+
+//currentTask = const_schematicTask
+currentTask = const_schematicTask
 capacitorCount = 0
 resistorCount = 0
 
-capacitorTotalString = "???"
-resistorTotalString = "???"
-
 draw_set_font('segoe');
+
+// These will be set by a separate script in room start
+capacitorTotal = 0
+resistorTotal = 0
+countingParts = true
 </string>
           </argument>
         </arguments>
@@ -108,9 +182,22 @@ draw_set_font('segoe');
             <kind>1</kind>
             <string>///Draw current task UI
 draw_set_color(c_white)
-draw_text(5, 5, "Current Task: " + currentTask)
+switch (currentTask) {
+    case const_schematicTask:
+        currentTaskText = "Find a schematic for an unshrink ray"
+        capacitorTotalString = "???"
+        resistorTotalString = "???"
+        break;
+    case const_partsTask:
+        currentTaskText = "Collect parts for unshrink ray"
+        capacitorTotalString = string(capacitorTotal)
+        resistorTotalString = string(resistorTotal)
+        break;      
+}
+draw_text(5, 5,  "Current Task: " + currentTaskText)
 draw_text(5, 20, "Capacitors: " + string(capacitorCount) + "/" + capacitorTotalString)
 draw_text(5, 35, "Resistors: " + string(resistorCount) + "/" + resistorTotalString)
+
 
 </string>
           </argument>

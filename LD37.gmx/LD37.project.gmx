@@ -65,6 +65,7 @@
       <sprite>sprites\spr_cursor</sprite>
       <sprite>sprites\spr_gurgle</sprite>
       <sprite>sprites\spr_schematic</sprite>
+      <sprite>sprites\spr_keyboard</sprite>
     </sprites>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_room_transition</sprite>
@@ -141,6 +142,7 @@
       <object>objects\obj_mouse</object>
       <object>objects\obj_monitor</object>
       <object>objects\obj_screen</object>
+      <object>objects\obj_keyboard</object>
     </objects>
     <objects name="player">
       <object>objects\obj_player_side</object>
