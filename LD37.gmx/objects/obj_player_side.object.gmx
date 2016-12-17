@@ -75,16 +75,21 @@ if (vspd &lt; 10) vspd += vacc
  
 falling = vspd &gt; 0
 
+
 if (key_jump) {
    if (place_meeting(x,y+1,obj_wall)) {
        // If we are on the ground, jump
        vspd = key_jump * -jumpspeed
-   } else {
+   } 
+   /*
+   else {
        // else, we're in the air. groundpound
        //vspd = key_jump * -poundspeed
        groundpound = true
    }
+   */
 }
+
 
 // Push
 scr_push()

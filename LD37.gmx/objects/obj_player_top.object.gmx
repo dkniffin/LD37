@@ -66,17 +66,12 @@ v_move = key_up + key_down
 hspd = h_move * movespeed
 vspd = v_move * movespeed
 
+/*
 if (key_jump) {
    // ground pound
    instance_create(0, 0, effect_shake)
-   
-   if (place_meeting(x,y+10,obj_mouse)) {
-      // We're above the mouse. Click the button
-      with(obj_screen) {
-          event_user(0);
-      }
-   }
 }
+*/
 
 // Push
 scr_push()

@@ -54,13 +54,17 @@
     <instance objName="obj_player_top" x="1472" y="480" name="inst_C3B495F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mouse" x="1120" y="512" name="inst_DDB2B9BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_monitor" x="0" y="-128" name="inst_AF6AF755" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_screen" x="0" y="0" name="inst_C8621EBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_screen" x="75" y="32" name="inst_C8621EBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room_transition" x="1495" y="0" name="inst_9A5F1DA7" locked="0" code="targetRoom = rm_workbench&#xA;" scaleX="0.25" scaleY="32" colour="4294967295" rotation="0"/>
     <instance objName="obj_arrow_work_right" x="1394" y="406" name="inst_A317A53B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_keyboard" x="99" y="482" name="inst_A8CE71A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_resistor" x="548" y="278" name="inst_9EBE0CF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_capacitor" x="47" y="75" name="inst_81C697A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_resistor" x="1189" y="503" name="inst_C8A3E160" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_capacitor" x="72" y="108" name="inst_81C697A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_resistor" x="1191" y="494" name="inst_C8A3E160" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mouse_interactor" x="1120" y="512" name="inst_47A0964D" locked="0" code="" scaleX="2.42000007629395" scaleY="2.875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_map_edge" x="-26" y="12" name="inst_9F96CF36" locked="0" code="" scaleX="1.05999994277954" scaleY="30.5161285400391" colour="4294967295" rotation="0"/>
+    <instance objName="obj_map_edge" x="-25" y="-18" name="inst_2C573919" locked="0" code="" scaleX="47.310001373291" scaleY="0.910000026226044" colour="4294967295" rotation="0"/>
+    <instance objName="obj_map_edge" x="-24" y="988" name="inst_6F99EBC4" locked="0" code="" scaleX="48.1300010681152" scaleY="1.62999999523163" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

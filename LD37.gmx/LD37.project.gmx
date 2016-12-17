@@ -47,6 +47,7 @@
       <sprite>sprites\spr_scissors</sprite>
       <sprite>sprites\spr_peg</sprite>
       <sprite>sprites\spr_cup</sprite>
+      <sprite>sprites\spr_soldering_iron</sprite>
     </sprites>
     <sprites name="character">
       <sprite>sprites\spr_character_left</sprite>
@@ -77,6 +78,7 @@
       <sprite>sprites\spr_arrow_comp_left</sprite>
       <sprite>sprites\spr_arrow_work_right</sprite>
     </sprites>
+    <sprite>sprites\spr_interactable</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_workbench</background>
@@ -93,8 +95,13 @@
     <font>fonts\segoe</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_wall</object>
-    <object>objects\obj_pushable</object>
+    <objects name="meta">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_pushable</object>
+      <object>objects\obj_interactable</object>
+      <object>objects\obj_room_transition</object>
+      <object>objects\obj_map_edge</object>
+    </objects>
     <objects name="parts">
       <object>objects\obj_capacitor</object>
       <object>objects\obj_resistor</object>
@@ -112,6 +119,7 @@
       <object>objects\obj_scissors</object>
       <object>objects\obj_peg</object>
       <object>objects\obj_cup</object>
+      <object>objects\obj_soldering_iron</object>
     </objects>
     <objects name="chem station">
       <object>objects\obj_chem_table</object>
@@ -152,8 +160,8 @@
     <objects name="controllers">
       <object>objects\obj_intro_controller</object>
       <object>objects\obj_controller</object>
+      <object>objects\obj_controller_end</object>
     </objects>
-    <object>objects\obj_room_transition</object>
     <objects name="room_arrows">
       <object>objects\obj_arrow_comp_left</object>
       <object>objects\obj_arrow_work_right</object>
@@ -161,15 +169,20 @@
     <objects name="effects">
       <object>objects\effect_shake</object>
     </objects>
+    <objects name="interactors">
+      <object>objects\obj_int_soldering_iron</object>
+      <object>objects\obj_mouse_interactor</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_intro_cutscene</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_intro</room>
     <room>rooms\rm_workbench</room>
     <room>rooms\rm_computer_desk</room>
-    <room>rooms\rm_intro</room>
     <room>rooms\rm_chemstation</room>
+    <room>rooms\rm_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
